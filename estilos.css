@@ -1,0 +1,27 @@
+
+
+body {
+    font-family: "Patrick Hand", cursive;
+    margin-left: 10%;
+}
+
+
+hr{
+    /* border: none; */
+    height: 2px;
+    width: 70%;
+    background-color: black;
+    margin-left: 0%;
+}
+
+
+h1 {
+    /* text-align: center; */
+
+
+}
+
+h2 {
+    color: green;
+}
+
