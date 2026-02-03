@@ -1,1 +1,1 @@
-https://oni12.github.io/CV/
+https://roadmap.sh/projects/single-page-cv
