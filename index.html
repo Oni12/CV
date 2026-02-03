@@ -13,36 +13,54 @@
 </head>
 <body>
 
-    <br> <br> <br>
-    <hr>
-    <h1 id="ja">JONATAN DAVID MEJIA TORREZ</h1>
-
-    <h2>Junior Frontend Developer</h2>
-    <p>Calle Lazcano, Barrio Villa Fátima</p>
-    <p>Tarija - Bolivia</p>
-    <p>67695771</p>
-    <p>onicito1234@gmail.com</p>
-
-    <br>
-    <h2>Skills</h2>
-    <p>HTML, CSS, Javascript, C++, WordPress</p>
-
-    <br>
-    <h2>Educación</h2>
-    <p>Ingeniería Informática</p>
-    <p>Estudiando en la Universidad Autónoma Juan Misael Saracho</p>
-    
-    <!-- <p>Tercer lugar en la competencia Regional de Programación ICPC </p> -->
-
-
-    <!-- <h2>Experiencia</h2> -->
-
-
-    <br>
-    <h2>Proyectos</h2>
 
 
 
+    <header>  <!-- Agrupa info personal -->
+        <h1>Jonatan David Mejia Torrez</h1>
+        <p class="titulo">Junior Frontend Developer</p>
+        
+        <address>  <!-- Semántico para contacto -->
+            <p>Calle Lazcano, Barrio Villa Fátima</p>
+            <p>Tarija, Bolivia</p>
+            <p>Tel: <a href="https://wa.me/59167695771">67695771</a></p>
+            <p>Email: <a href="mailto:onicito1234@gmail.com">onicito1234@gmail.com</a></p>
+        </address>
+    </header>
+
+    <main>
+        <hr class="linea-separadora">
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>  <!-- Lista en lugar de párrafo -->
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>WordPress</li>
+            </ul>
+        </section>
+
+        <section class="educacion">
+            <h2>Educación</h2>
+            <article>
+                <h3>Ingeniería Informática</h3>
+                <p>Universidad Autónoma Juan Misael Saracho</p>
+                <p class="estado">En curso</p>
+            </article>
+        </section>
+
+        <section class="proyectos">
+            <h2>Proyectos</h2>
+            <!-- Agrega tus proyectos aquí -->
+            <article>
+                <h3>Nombre del Proyecto</h3>
+                <p>Descripción breve...</p>
+                <a href="#">Ver proyecto</a>
+            </article>
+        </section>
+    </main>
 
 
 
